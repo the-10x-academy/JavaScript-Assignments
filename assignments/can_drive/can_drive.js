@@ -1,15 +1,20 @@
+//const { exportDefaultSpecifier } = require("babel-types");
+
 function CanDrive(hasDrivingLiscence, isTired, isSober) {
     // Write you code here
-    if(hasDrivingLiscence===True && isTired===False && isSober===True ){
-        return "You can drive"
+    if(hasDrivingLiscence==false)
+    {
+    return "You cannot drive"
     }
-    if(hasDrivingLiscence===False && isTired===False && isSober===True ){
-        return "You cannot drive"
-    }
-    if(hasDrivingLiscence===True && isTired===True && isSober===False ){
+    else{
+        if(isTired==false && isSober==true)
+        {
+            return "You can drive"
+        }
+        else
+        {
         return "You shouldn't drive"
+        }
     }
-
 }
-
 module.exports = CanDrive;
