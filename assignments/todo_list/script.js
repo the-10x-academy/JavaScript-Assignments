@@ -10,6 +10,7 @@ document.querySelector('#addTodo').onclick = function(){
     }
     else
     {
+
         document.querySelector('.todos').innerHTML += `
         <p key = ${count}>
         <span class = "task">
@@ -21,6 +22,7 @@ document.querySelector('#addTodo').onclick = function(){
         count++;
 
         let currentTasks = document.querySelectorAll('.task');
+        
         for ( let i = 0; i < currentTasks.length; i ++)
         {
             currentTasks[i].onclick = function(){
