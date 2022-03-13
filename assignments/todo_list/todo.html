@@ -3,11 +3,26 @@
         <title>Todo List</title>
     </head>
     <body>
-        <div>
+        <section >
+            <form class="todo-container">
+                <input type="text" name="" id="" class="textinput">
+                <input type="submit" value="add todo" class="btn">
+            </form>
+           <ul class="todolist">
+               <li>
+                   <span class="text">this is todo</span>
+                   <div class="todo-btn">
+                       <button class="todo-buttons done">Done</button>
+                       <button class="todo-buttons remove">Remove</button>
+                   </div>
+               </li>
+           </ul>
+        </section>
+        <!-- <div>
             <input type='text' name='todo_input'>
             <button type='submit'>Add Todo</button>
             <div class='todos'></div>
-        </div>
+        </div> -->
     </body>
     <script src='./script.js'></script>
 </html>
