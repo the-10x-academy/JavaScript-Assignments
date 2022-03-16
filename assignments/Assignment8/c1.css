@@ -1,0 +1,38 @@
+body{
+    background-color:skyblue;
+    margin: 0px;
+}
+.content{
+    display: flex;
+}
+#container1{
+    background-color: aquamarine;
+}
+#container2{
+    background-color: bisque;
+}
+li{
+    list-style-type:  num;
+    text-align: justify;
+}
+#Completed{
+    padding: 5px;
+    margin: 25px 250px;
+}
+#Pending{
+    float: right;
+    padding: 5px;
+    margin: 25px 250px;
+}
+.display{
+    height: 100%;
+    width: 50%;
+    margin: 10px 20px;
+}
+button{
+    background-color:pink;
+    color: rgba(2, 116, 2, 0.877);
+    cursor: pointer;
+    border-radius: 4%;
+    border: 5px solid rgb(12, 189, 12);
+}
